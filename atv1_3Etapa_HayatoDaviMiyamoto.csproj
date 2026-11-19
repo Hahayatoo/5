@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>atv1_3Etapa_HayatoDaviMiyamoto</RootNamespace>
+    <AssemblyName>atv1_3Etapa_HayatoDaviMiyamoto</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Conector oficial do MySQL (Parte 1, Passo 2). System.Text.Json já vem embutido no .NET 8. -->
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+</Project>
